@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	/*font-family: 'Avenir LT Std 95 Black';*/
+}
+.title h3 {
+	color: #C6D7E5;
+	font-size: 2.5em;
+	letter-spacing: 3.8px;
+	margin: 25px 0px 25px 0px;
+	font-weight: 600;
+}
+.subtitle h3 {
+	font-size: 1.9em;
+	color: #c6d7e5;
+	letter-spacing: 3.8px;
+	font-weight: 700;
+	margin: 10px 0px 10px 0px;
+}
+.subcontain h3 {
+	margin: 0px 0px 40px 0px;
+	font-size: 1.3em;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+	color: #5c7184;
+}
+.desctitel {
+	padding: 0px 130px 0px 130px;
+}
+.desctitel h3 {
+	color: #5c7184;
+	margin: 0px 0px 24px 0px;
+	font-size: 2.5em;
+	letter-spacing: 3.8px;
+	font-weight: 700;
+}
+.desctitel hr {
+	margin-bottom: 24px;
+	color: #d8d8d8;
+	width: 50px;
+	height: 2px;
+}
+.desctitel h5 {
+	font-weight: 600;
+	margin: 0px 0px 24px 0px;
+	font-size: 1.1em;
+	color: #5c7184;
+	line-height: 24px;
+}
+.desctitel h4 {
+	font-weight: 600;
+	margin: 0px 0px 44px 0px;
+	line-height: 24px;
+	font-size: 1.3em;
+	color: #3faad9;
+	letter-spacing: 0.2px;
+}
+.desctitel {
+	margin-bottom: 50px;
+}
+.footer hr {
+	color: #c6d7e5;
+	margin: 0px 0px 12px 0px;
+}
+.footer > h3 {
+	font-weight: 600;
+	margin: 0px 0px 12px 0px;
+	color: #5c7184;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+}
+.footer h3:nth-child(1) {
+	font-weight: 600;
+	margin: 0px 0px 51px 0px;
+	font-size: 15px;
+	line-height: 24px;
+	color: #5c7184;
+}
+.footer .col-md-7 img {
+	margin-right: 24px;
+}
+.footer .col-md-7 {
+	padding-left: 7px;
+}
+.desctitel button {
+	padding: 0px 26px 0px 26px;
+	border-radius: 3px;
+	text-align: left;
+	background: transparent;
+	border-color: #47abd7;
+	height: 52px;
+	width: 162px;
+}
+.desctitel button:hover {
+	background-color: rgba(63,165,216,0.1);
+}
+.desctitel span:nth-child(1) {
+	margin: 0px 0px 0px 0px;
+	font-size: 0.8em;
+	font-weight: 600;
+	color: #5c7184;
+}
+.desctitel span:nth-child(2) {
+	padding-left: 44px;
+}
+
+@media screen and (min-width: 992px) {
+.container {
+	width: 940px;
+}
+.desctitel hr {
+	margin-left: 0px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.desctitel {
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+}
+.desctitel .col-md-3 {
+	margin-top: 40px;
+}
+.footer .col-md-5 {
+	text-align: center;
+}
+.footer .col-md-7 {
+	text-align: center;
+}
+.footer h3:nth-child(1) {
+	margin-bottom: 15px;
+}
+.footer .col-md-7 > a:nth-child(1) {
+	padding-left: 27px;
+}
+.desctitel .col-md-3 h3 {
+	margin-bottom: 9px;
+}
+.desctitel .col-md-3 hr {
+	margin-bottom: 7px;
+	margin-top: 0px;
+}
+}
+
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 480px) {
+.title h3 {
+	font-size: 5.5em !important;
+	letter-spacing: 6px;
+	margin: 90px 0px 90px 0px;
+}
+.logo .icon {
+	width: 20%;
+	margin-bottom: 20px;
+}
+.subtitle h3 {
+	font-size: 3em;
+	letter-spacing: 6px;
+	margin: 24px 0px 24px 0px;
+}
+.subcontain h3 {
+	margin: 0px 0px 78px 0px;
+	font-size: 1.5em;
+    letter-spacing: 0.2px;
+}
+.desctitel h3 {
+	margin: 0px 0px 30px 0px;
+	font-size: 4em;
+}
+.desctitel hr {
+	margin-bottom: 30px;
+	width: 100px;
+	border-width: 10px;
+}
+.desctitel h5 {
+	font-size: 2em;
+	margin: 0px 0px 30px 0px;
+}
+.desctitel button {
+	height: 91px;
+	width: 259px;
+	margin-bottom: 39px;
+	border-width: 2px;
+}
+.desctitel span:nth-child(1) {
+	font-size: 2em;
+	line-height: 64px;
+}
+button span img {
+	width: 20%;
+	margin-bottom: 10px;
+}
+.footer hr {
+	border-width: 5px;
+	margin: 0px 0px 29px 0px;
+}
+.footer > h3 {
+	margin: 0px 0px 16px 0px;
+	font-size: 2.4em;
+}
+.footer h3:nth-child(1) {
+	margin: 0px 0px 26px 0px;
+	font-size: 1.4em;
+}
+.footer .col-md-7 img {
+	width: 10%;
+}
+.desctitel {
+	margin-top: 46px;
+	margin-bottom: 87px;
+}
+}
